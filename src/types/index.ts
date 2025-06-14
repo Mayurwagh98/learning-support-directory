@@ -13,3 +13,8 @@ export interface Provider {
 export interface Props {
   provider: Provider;
 }
+
+export interface SearchBarProps {
+  search: string;
+  setSearch: (value: string) => void;
+}
