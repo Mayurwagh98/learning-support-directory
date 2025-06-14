@@ -1,0 +1,69 @@
+[
+    {
+      "id": "1",
+      "name": "Bright Minds",
+      "specialization": "Dyslexia Support",
+      "location": "Dubai",
+      "rating": 4,
+      "shortDescription": "Specialized dyslexia support for children.",
+      "longDescription": "Bright Minds provides customized learning programs for children with dyslexia...",
+      "contactEmail": "contact@brightminds.com",
+      "phoneNumber": "+971500000001"
+    },
+    {
+      "id": "2",
+      "name": "Focus First",
+      "specialization": "ADHD Coaching",
+      "location": "Abu Dhabi",
+      "rating": 5,
+      "shortDescription": "Coaching children with ADHD to focus better.",
+      "longDescription": "Focus First uses behavior-based coaching for children and teens with ADHD...",
+      "contactEmail": "info@focusfirst.com",
+      "phoneNumber": "+971500000002"
+    },
+    {
+      "id": "3",
+      "name": "Clear Pathways",
+      "specialization": "Autism Spectrum Support",
+      "location": "Sharjah",
+      "rating": 4.5,
+      "shortDescription": "Tailored programs for children with autism.",
+      "longDescription": "Clear Pathways offers structured learning and social skills development for children on the autism spectrum, using evidence-based techniques.",
+      "contactEmail": "support@clearpathways.com",
+      "phoneNumber": "+971500000003"
+    },
+    {
+      "id": "4",
+      "name": "Speech Harmony",
+      "specialization": "Speech Therapy",
+      "location": "Dubai",
+      "rating": 4.7,
+      "shortDescription": "Expert speech therapy for children with communication difficulties.",
+      "longDescription": "Speech Harmony provides personalized speech and language therapy to help children improve articulation, fluency, and comprehension.",
+      "contactEmail": "hello@speechharmony.com",
+      "phoneNumber": "+971500000004"
+    },
+    {
+      "id": "5",
+      "name": "Learning Steps",
+      "specialization": "General Learning Disabilities",
+      "location": "Ras Al Khaimah",
+      "rating": 4.2,
+      "shortDescription": "Support for children with various learning challenges.",
+      "longDescription": "Learning Steps offers individualized education plans for children with dyslexia, dyscalculia, and other learning disabilities.",
+      "contactEmail": "info@learningsteps.com",
+      "phoneNumber": "+971500000005"
+    },
+    {
+      "id": "6",
+      "name": "Behavior Balance",
+      "specialization": "Behavioral Therapy",
+      "location": "Abu Dhabi",
+      "rating": 4.8,
+      "shortDescription": "Helping children manage behavioral challenges.",
+      "longDescription": "Behavior Balance uses applied behavior analysis (ABA) to support children with emotional and behavioral difficulties.",
+      "contactEmail": "contact@behaviorbalance.com",
+      "phoneNumber": "+971500000006"
+    }
+
+  ]
