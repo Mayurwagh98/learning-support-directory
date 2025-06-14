@@ -6,21 +6,28 @@ const ProviderCard = ({ provider }: Props) => {
   return (
     <Link
       to={`/providers/${provider.id}`}
-      className="p-5 border rounded-2xl shadow-md hover:shadow-xl transition bg-white flex flex-col justify-between gap-3 hover:scale-[1.02] duration-200"
+      className="group relative p-6 border border-transparent rounded-3xl shadow-lg bg-white hover:shadow-2xl hover:border-blue-400 transition-all duration-300 ease-in-out overflow-hidden"
     >
-      <div>
-        <h3 className="text-xl font-semibold text-blue-700 mb-1">
-          {provider.name}
-        </h3>
-        <p className="text-sm text-gray-700 font-medium">
-          {provider.specialization}
-        </p>
-        <p className="text-xs text-gray-500">{provider.location}</p>
+      <div className="absolute right-4 top-4 bg-gradient-to-r from-blue-100 to-blue-200 text-blue-700 text-xs font-semibold px-2 py-1 rounded-full shadow-sm">
+        {provider.location}
       </div>
-      <div className="flex items-center gap-1 text-yellow-500 text-sm">
-        {Array.from({ length: provider.rating }, (_, i) => (
-          <Star key={i} size={16} fill="currentColor" />
-        ))}
+      <div className="flex flex-col justify-between gap-4">
+        <div>
+          <h3 className="text-2xl font-extrabold text-blue-900 group-hover:text-blue-700 transition">
+            {provider.name}
+          </h3>
+          <p className="text-sm text-blue-600 font-semibold mt-1">
+            {provider.specialization}
+          </p>
+          <p className="text-sm text-gray-500 mt-2 line-clamp-3">
+            {provider.shortDescription}
+          </p>
+        </div>
+        <div className="flex items-center gap-1 text-yellow-400 mt-4">
+          {Array.from({ length: provider.rating }, (_, i) => (
+            <Star key={i} size={18} fill="currentColor" />
+          ))}
+        </div>
       </div>
     </Link>
   );
