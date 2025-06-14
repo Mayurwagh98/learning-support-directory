@@ -9,3 +9,7 @@ export interface Provider {
   contactEmail: string;
   phoneNumber: string;
 }
+
+export interface Props {
+  provider: Provider;
+}

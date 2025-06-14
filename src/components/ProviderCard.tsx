@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
-import type { Provider } from "../types";
-
-interface Props {
-  provider: Provider;
-}
+import type { Props } from "../types";
 
 const ProviderCard = ({ provider }: Props) => {
   return (
