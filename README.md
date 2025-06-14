@@ -2,7 +2,7 @@
 
 A responsive directory web app built with React + Vite + TypeScript, showcasing educational support providers. Users can search, browse, and view detailed info about each provider.
 
-<img width="1432" alt="Screenshot 2025-06-14 at 16 19 25" src="https://github.com/user-attachments/assets/66780ea7-da50-4879-a695-af8b34018a43" />
+https://github.com/user-attachments/assets/eed4e7a6-609c-4cc7-9ccc-bf19846ad9bd
 
 ### 🚀 Features
 
