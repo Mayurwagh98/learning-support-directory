@@ -1,0 +1,25 @@
+[
+    {
+      "id": "1",
+      "name": "Bright Minds",
+      "specialization": "Dyslexia Support",
+      "location": "Dubai",
+      "rating": 4,
+      "shortDescription": "Specialized dyslexia support for children.",
+      "longDescription": "Bright Minds provides customized learning programs for children with dyslexia...",
+      "contactEmail": "contact@brightminds.com",
+      "phoneNumber": "+971500000001"
+    },
+    {
+      "id": "2",
+      "name": "Focus First",
+      "specialization": "ADHD Coaching",
+      "location": "Abu Dhabi",
+      "rating": 5,
+      "shortDescription": "Coaching children with ADHD to focus better.",
+      "longDescription": "Focus First uses behavior-based coaching for children and teens with ADHD...",
+      "contactEmail": "info@focusfirst.com",
+      "phoneNumber": "+971500000002"
+    }
+
+  ]
