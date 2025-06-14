@@ -19,25 +19,45 @@ const ProviderDetail = () => {
   if (!provider) return <div className="p-4">Loading...</div>;
 
   return (
-    <div className="p-4">
+    <div className="p-6 max-w-3xl mx-auto">
       <button
         onClick={() => navigate(-1)}
-        className="mb-4 text-blue-500 underline"
+        className="mb-6 text-blue-600 hover:underline"
       >
         ← Back to List
       </button>
-      <h2 className="text-2xl font-bold">{provider.name}</h2>
-      <p className="text-gray-700 mb-2">
-        {provider.specialization} - {provider.location}
-      </p>
-      <p className="mb-2">⭐ {provider.rating} / 5</p>
-      <p className="mb-4">{provider.longDescription}</p>
-      <p>
-        <strong>Email:</strong> {provider.contactEmail}
-      </p>
-      <p>
-        <strong>Phone:</strong> {provider.phoneNumber}
-      </p>
+      <div className="bg-white shadow rounded-2xl p-6 space-y-4">
+        <h2 className="text-2xl font-bold text-blue-800">{provider.name}</h2>
+        <p className="text-gray-700 font-medium">
+          {provider.specialization} - {provider.location}
+        </p>
+        <p className="text-yellow-500">
+          Rating: {"⭐".repeat(provider.rating)}
+        </p>
+        <p className="text-gray-800 leading-relaxed">
+          {provider.longDescription}
+        </p>
+        <div className="pt-4 border-t">
+          <p>
+            <strong>Email:</strong>{" "}
+            <a
+              href={`mailto:${provider.contactEmail}`}
+              className="text-blue-600 hover:underline"
+            >
+              {provider.contactEmail}
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong>{" "}
+            <a
+              href={`tel:${provider.phoneNumber}`}
+              className="text-blue-600 hover:underline"
+            >
+              {provider.phoneNumber}
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
