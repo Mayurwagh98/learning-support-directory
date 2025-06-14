@@ -11,7 +11,7 @@ const ProviderCard = ({ provider }: Props) => {
       <div className="absolute right-4 top-4 bg-gradient-to-r from-blue-100 to-blue-200 text-blue-700 text-xs font-semibold px-2 py-1 rounded-full shadow-sm">
         {provider.location}
       </div>
-      <div className="flex flex-col justify-between gap-4">
+      <div className="flex flex-col justify-between gap-4 mt-5">
         <div>
           <h3 className="text-2xl font-extrabold text-blue-900 group-hover:text-blue-700 transition">
             {provider.name}
